@@ -4,53 +4,166 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Siman</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
+    <link rel="stylesheet" href="./assets/styles.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+
+</style>
 </head>
 
 <body>
-    <h1>hhhhhhhhhhhhhh</h1>
 
-    <nav class="navbar navbar-expand-lg bg-body-tertiary">
-        <div class="container-fluid">
-            <a class="navbar-brand" href="#">Navbar</a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
-                aria-label="Toggle navigation">
+    <nav class="navbar-custom">
+        <div class="logo">◇ <span>siman</span>.com</div>
+
+        <div class="search-container">
+            <input type="text" placeholder="🔍 Buscar" />
+        </div>
+
+        <div class="icons">
+            <span>👤</span>
+            <span>🛒</span>
+        </div>
+    </nav>
+
+    <nav class="navbar navbar-expand-lg bg-body-tertiary nav-rojo">
+        <div class="container">
+            <a class="navbar-brand" href="#">Departamentos</a> |
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
                     <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                        <a class="nav-link active" aria-current="page" href="./promociones.html">Promociones</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Link</a>
-                    </li>
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
-                            aria-expanded="false">
-                            Dropdown
-                        </a>
-                        <ul class="dropdown-menu">
-                            <li><a class="dropdown-item" href="#">Action</a></li>
-                            <li><a class="dropdown-item" href="#">Another action</a></li>
-                            <li>
-                                <hr class="dropdown-divider">
-                            </li>
-                            <li><a class="dropdown-item" href="#">Something else here</a></li>
-                        </ul>
+                        <a class="nav-link" href="#">Nuestras Sucursales</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link disabled" aria-disabled="true">Disabled</a>
+                        <a class="nav-link" href="#">Condiciones de Ofertas</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link disabled" aria-disabled="true"></a>
                     </li>
                 </ul>
-                <form class="d-flex" role="search">
-                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search" />
-                    <button class="btn btn-outline-success" type="submit">Search</button>
-                </form>
             </div>
         </div>
     </nav>
+    <div class="d-flex justify-content-lg- justify-content-md-center justify-content-sm-center ">
+        <h2 style="margin-left: 2rem;">¡Lo mejor en audio!</h2>
+    </div>
+
+    <section class="container">
+        <article class="row">
+            <div class="col-lg-3 col-md-6 col-sm-12 mb-2">
+                <div class="card">
+                    <img src="https://www.abc.cl/dw/image/v2/BCPP_PRD/on/demandware.static/-/Sites-master-catalog/default/dwcdebb0db/images/large/3CC23418460.jpg?sw=1200&sh=1200&sm=fit"
+                        class="card-img-top" alt="imagen-audifonos-sony">
+                    <div class="card-body">
+                        <h5 class="card-title">Sony</h5>
+                        <p class="card-text">Audífonos Bluetooth Over Ear Sony WH-CH520</p>
+                        <p class="card-text"><small class="text-secondary">Vendido por Siman</small></p>
+                        <p class="card-text">$79.00</p>
+                        <a href="#" class="btn btn-primary">Agregar al carrito</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-3 col-md-6 col-sm-12 mb-2">
+                <div class="card">
+                    <img src="data:image/jpeg;base64,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"
+                        class="card-img-top" alt="imagen-audifonos-sony">
+                    <div class="card-body">
+                        <h5 class="card-title">Xiaomi</h5>
+                        <p class="card-text">Audífono Xiaomi Redmi buds 6 play</p>
+                        <p class="card-text"><small class="text-secondary">Vendido por Siman</small></p>
+                        <p class="card-text">$45.90</p>
+                        <a href="#" class="btn btn-primary">Agregar al carrito</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-3 col-md-6 col-sm-12 mb-2">
+                <div class="card h-100">
+                    <img src="data:image/jpeg;base64,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"
+                        class="card-img-top" alt="imagen-audifonos-sony">
+                    <div class="card-body">
+                        <h5 class="card-title">JBL</h5>
+                        <p class="card-text"> Bocina JBL Original Flip 6 de 30 Watts</p>
+                        <p class="card-text"><small class="text-secondary">Vendido por Siman</small></p>
+                        <p class="card-text">$100.90</p>
+                        <a href="#" class="btn btn-primary">Agregar al carrito</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-3 col-md-5 col-sm-11 mb-2">
+                <div class="card h-100">
+                    <img src="data:image/jpeg;base64,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"
+                        class="card-img-top" alt="imagen-audifonos-sony">
+                    <div class="card-body">
+                        <h5 class="card-title">Samsung</h5>
+                        <p class="card-text">Audífono TWS Samsung Galaxy buds FES</p>
+                        <p class="card-text"><small class="text-secondary">Vendido por Siman</small></p>
+                        <p class="card-text">$78.00</p>
+                        <a href="#" class="btn btn-primary">Agregar al carrito</a>
+                    </div>
+                </div>
+            </div>
+
+        </article>
+    </section>
+
+
+    <footer class="bg-light">
+        <hr>
+        <div class="container mb-5">
+            <section class="row">
+                <article class="col-lg-4 ">
+                    <h5>SIMAN CORPORATIVO</h5>
+                    <ul class="list-unstyled">
+                        <li><a href="#">Quiénes Somos</a></li>
+                        <li><a href="#">Visión y Misión</a></li>
+                        <li><a href="#">Historia</a></li>
+                        <li><a href="#">Sucursales</a></li>
+                        <li><a href="#">Servicios</a></li>
+
+                    </ul>
+                </article>
+                <article class="col-lg-4">
+                    <h5>SERVICIO AL CLIENTE</h5>
+                    <ul class="list-unstyled">
+                        <li><a href="#">Preguntas Frecuentes</a></li>
+                        <li><a href="#">Polìticas de devoluviones</a></li>
+                        <li><a href="#">Contáctenos</a></li>
+                        <li><a href="#">Seguridad del sitio</a></li>
+                        <li><a href="#">Derecho de Retracto</a></li>
+                        <li><a href="#">Condiciones de uso</a></li>
+                        <li><a href="#">Condiciones ofertas</a></li>
+
+                    </ul>
+                </article>
+                <article class="col-lg-4 color-iconos">
+                    <p>Mantente en contacto con nosotros</p>
+                    <a href=""><i class="bi bi-facebook color-iconos"></i></a>
+                    <a href=""><i class="bi bi-instagram color-iconos"></i></a>
+                    <a href=""><i class="bi bi-youtube color-iconos"></i></a>
+
+                </article>
+            </section>
+            <section>
+
+            </section>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q"
+        crossorigin="anonymous"></script>
 </body>
 
 </html>

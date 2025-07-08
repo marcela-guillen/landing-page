@@ -1,0 +1,61 @@
+.nav-rojo {
+  background-color: #ece6e6 !important; 
+}
+
+.card {
+  border: none !important;
+}
+
+.btn-primary{
+background-color: #d02d37 !important;
+border-color: #d02d37 !important;
+}
+.navbar-custom {
+  background-color: #a53838; /* fondo rojo como en la imagen */
+  padding: 10px 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-family: sans-serif;
+  color: white;
+}
+
+.logo {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.logo span {
+  color: white;
+  font-weight: 600;
+}
+
+.search-container {
+  flex: 1;
+  margin: 0 20px;
+}
+
+.search-container input {
+  width: 100%;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 30px;
+  background-color: #551111; /* fondo del input más oscuro */
+  color: white;
+  font-size: 16px;
+}
+
+.search-container input::placeholder {
+  color: #aaa;
+}
+
+.icons {
+  display: flex;
+  gap: 20px;
+  font-size: 20px;
+}
+
+.color-iconos{
+    color: black !important;
+    font-size: 1.1em;
+}
