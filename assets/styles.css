@@ -11,7 +11,7 @@ background-color: #d02d37 !important;
 border-color: #d02d37 !important;
 }
 .navbar-custom {
-  background-color: #a53838; /* fondo rojo como en la imagen */
+  background-color: #a53838; 
   padding: 10px 20px;
   display: flex;
   align-items: center;
@@ -40,7 +40,7 @@ border-color: #d02d37 !important;
   padding: 10px 15px;
   border: none;
   border-radius: 30px;
-  background-color: #551111; /* fondo del input más oscuro */
+  background-color: #551111; 
   color: white;
   font-size: 16px;
 }
@@ -58,4 +58,17 @@ border-color: #d02d37 !important;
 .color-iconos{
     color: black !important;
     font-size: 1.1em;
+}
+
+
+.card.grande img {
+  max-height: 10.5em;    
+  object-fit: cover;
+  width: 90%;
+}
+
+
+.card-sm img {
+  max-height: 10rem;      
+  object-fit: cover;
 }
