@@ -13,7 +13,11 @@
 
 .navbar-custom {
   background-color: #a53838; 
+<<<<<<< HEAD
   padding: 0.625em 1.25em;   
+=======
+  padding: 10px 20px;
+>>>>>>> alejandra/Promociones
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -40,7 +44,11 @@
   width: 100%;
   padding: 0.625em 0.9375em; 
   border: none;
+<<<<<<< HEAD
   border-radius: 1.875em; 
+=======
+  border-radius: 30px;
+>>>>>>> alejandra/Promociones
   background-color: #551111; 
   color: white;
   font-size: 1em; /* 16px */
@@ -63,6 +71,7 @@
 }
 
 
+<<<<<<< HEAD
 .category-section {
     padding: 2rem ;
     background-color: #f8f9fa;
@@ -128,3 +137,16 @@
 
 
 
+=======
+.card.grande img {
+  max-height: 10.5em;    
+  object-fit: cover;
+  width: 90%;
+}
+
+
+.card-sm img {
+  max-height: 10rem;      
+  object-fit: cover;
+}
+>>>>>>> alejandra/Promociones
